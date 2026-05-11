@@ -8,14 +8,14 @@ from telegram import Update
 from telegram.ext import ApplicationBuilder, CommandHandler, MessageHandler, ContextTypes, filters
 
 # ─── CONFIG ──────────────────────────────────────────────────────────────────
-BOT_TOKEN  = "YOUR_BOT_TOKEN_HERE"          # from @BotFather
-ADMIN_IDS  = [123456789]                    # your Telegram user ID(s)
+BOT_TOKEN  = "6966644189:AAFNRvKiUNxC4QOgeeXGPY1wWU1tSH6aSZM"          # from @BotFather
+ADMIN_IDS  = [7099019912]                    # your Telegram user ID(s)
 GDFLIX_URL = "https://new18.gdflix.net/share"
 GDFLIX_API = "4c6758a8a132729b75e0ba3fc2d7b28a"
 
 # Google Drive API key — needed to list folder contents
 # Enable Drive API at https://console.cloud.google.com and create a key
-GAPI_KEY   = os.getenv("GOOGLE_API_KEY", "")
+GAPI_KEY   = os.getenv("GOOGLE_API_KEY", "AIzaSyDyEcgK07-YYnsHuK7PRRO2ob6EuIj9bS0")
 GAPI_BASE  = "https://www.googleapis.com/drive/v3"
 
 # ─── ADMIN GUARD ─────────────────────────────────────────────────────────────
